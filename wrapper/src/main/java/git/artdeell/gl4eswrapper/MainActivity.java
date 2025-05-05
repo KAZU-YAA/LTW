@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
 
     public ApplicationInfo getAppicationInfo(PackageManager packageManager) {
         try {
-            return packageManager.getApplicationInfo("net.kdt.pojavlaunch.debug", PackageManager.GET_SHARED_LIBRARY_FILES);
+            return packageManager.getApplicationInfo("net.kdt.pojavlaunch.teal", PackageManager.GET_SHARED_LIBRARY_FILES);
         }catch (PackageManager.NameNotFoundException e) {
             return null;
         }
